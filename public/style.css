@@ -1,53 +1,50 @@
-/****** Main Styling ******/
+/* styles */
+/* called by your view template */
+
+* {
+  box-sizing: border-box;
+}
 
 body {
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
-	color: #222;
-	background-color: #FaFaFa;
-	text-align: center;
-	line-height: 1.4em;
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  text-align: center;
+  background-color: black;
+  color: #fff;
 }
 
-.container {
-	padding: 0;
-	margin-top: 40px;
+h1 {
+  font-style: italic;
 }
 
-h3 {
-  margin-top: 30px;
+.bold {
+  font-weight: bold;
 }
 
-.footer {
-	margin-top: 40px;
+main {
+  margin: 10px auto;
+  border-left: 1px dotted red;
+  max-width: 800px;
+  text-align: left;
+  padding: 10px 20px;
 }
 
-.user-stories {
-  position: relative;
-  text-align: justify;
-  max-width: 700px;
-  margin: 15px auto;
-}
-code {
-  font-family: monospace;
-  padding: 2px;
-  color: black;
-  background-color: #fff;
-}
-ol {
-	list-style-position: outside;
-}
-ul {
-	list-style-type: none;
+p,h3,ul {
+  padding: 10px;
 }
 
-li {
-  margin-bottom: 0.5em;
-}
-.user-stories li {
-  margin-bottom: 1em;
+ul li {
+  list-style-type:none;
+  margin: 10px 0;
 }
 
-a {
-	color: #2574A9;
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+a{
+  color: green;
 }
